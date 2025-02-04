@@ -31,7 +31,7 @@ def save_date(target_date):
 
 # Bot commands
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text("Hello! I will send countdown updates for the KNY Trip.")
+    await update.message.reply_text("Hello! I will send countdown updates for the Khmer New Year Trip.")
 
 async def set_date(update: Update, context: CallbackContext) -> None:
     if len(context.args) != 1:
